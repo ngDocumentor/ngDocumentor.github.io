@@ -1,6 +1,3 @@
-# ngDocumentor.github.io
-Opensource ngDocumentor documentation site (also serves as a demo) [https://ngDocumentor.github.io](https://ngDocumentor.github.io)
-
 # Getting started
 
 
@@ -64,5 +61,4 @@ ngDocumenter is a simple website that will serve your .md files from a location 
 
 
 * Thats it! Push your code to github or your server root. Your simple documentation site is online.
-
 
