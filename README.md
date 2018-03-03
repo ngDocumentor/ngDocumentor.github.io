@@ -66,3 +66,8 @@ ngDocumenter is a simple website that will serve your .md files from a location 
 * Thats it! Push your code to your server root. Your simple documentation site is online.
 
 
+## TODO / Plans
+
+* ADD Search Capability for site or .md files without loss in performance P4
+* Move to Observable based routing P2
+* Check possibility of removing `#/` for .md file's internal linking inside ngDocumentor
