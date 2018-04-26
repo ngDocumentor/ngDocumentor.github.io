@@ -7,7 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
         "/index.html",
         "/inline.31e1fb380eb7cf3d75b1.bundle.js",
         "/main.4cad87b4df0940c50bc9.bundle.js",
@@ -48,11 +47,10 @@
     "/assets/mddocs/brandname.md": "ac458f3cd7e69aa9dbd066342bf2f84cd7136fde",
     "/vendor.beff44b1585e6612257f.bundle.js": "e12c604613c2ebe83cc07d3386d128455be2aeaa",
     "/assets/mddocs/config.md": "a95000402f3fc25166c0d0c9c7499bd691f75b81",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "05472f0d9ef0c825e1cbbefd7e414046b5fd6796",
     "/assets/mddocs/error.md": "8813b9fc49e8110bd8eaf0b7ee6b094d04a6263e",
-    "/index.html": "3a4da44603d5fff92eafa464b931d640e4592e36",
-    "/assets/mddocs/home.md": "498556b00db749dc22946b4267eff1c6cbf699f7",
-    "/assets/mddocs/intro.md": "13d8179f0067316f357fedc34dac6b91112a10b0",
+    "/assets/mddocs/home.md": "b065b8dc5f1ed067d6a8ed82d01828b50871c416",
+    "/assets/mddocs/intro.md": "b531811f6b4b7894b2ae46ce5a6dfd7fdc53ece6",
     "/assets/mddocs/sidebar.md": "03fb03cf6418b302bf4cd116c8ed815c836d9d83",
     "/assets/mddocs/topnav.md": "8594e143a61bd5d8cd230b4958f37c366814f789"
   }
