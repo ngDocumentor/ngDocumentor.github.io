@@ -8,7 +8,7 @@ ngDocumentor is a simple website that serves your .md files from a host location
 
 #### Getting started - 10 Minutes
 
-* Clone the [ngDocumentor github site repository](https://github.com/ngDocumentor/ngDocumentor.github.io) OR download the [latest release v2.1.9](https://github.com/ngDocumentor/ngDocumentor.github.io/releases) to use the ngDocumentor site distribution directly.
+* Clone the [ngDocumentor github site repository](https://github.com/ngDocumentor/ngDocumentor.github.io) OR download the [latest release v2.2.0](https://github.com/ngDocumentor/ngDocumentor.github.io/releases) to use the ngDocumentor site distribution directly.
 
 
 * NOTE: If you clone the [ngDocumentor github site repository](https://github.com/ngDocumentor/ngDocumentor.github.io), and do not intend to use Service Worker / Offline viewing support then you can safely delete the `ngsw-worker.js` and `ngsw.json` files from the github clone. Alternatively, if you wish to use the offline viewing (caching) support then use the [ngDocumentor Angular source](https://github.com/ngDocumentor/ngDocumentor) to create a offline viewing enabled build for yourself. Build steps for ngDocumentor development branch can be found in [README.md](https://github.com/ngDocumentor/ngDocumentor/blob/master/README.md) or [here](#/building).
