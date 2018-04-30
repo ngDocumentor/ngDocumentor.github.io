@@ -30,6 +30,10 @@
             ]
         },
         {
+            "tag": "Building / Offline Viewing",
+            "link": "/building"
+        },
+        {
             "tag": "Resources",
             "children": [
                 {
