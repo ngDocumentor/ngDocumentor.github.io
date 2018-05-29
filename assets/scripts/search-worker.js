@@ -56,6 +56,7 @@ async function getDocs(urlsArr) {
   // REASON: ? Iterables in t/co, asyncjs, and promise.all with error handling is a mess! 
   // SOLUTION: 
   // Proposal needed for promise.all where errors of only error promises can be handled without breaking other promises
+  // Optionally using an argument the Proposal should also allow breaking promise.all() when error in one promise occurs
   // Allow for synchronous or asynchronous implementation using an argument
   for (let i = 0; i < urlsArr.length; i++) {
     try {
@@ -98,7 +99,7 @@ function searchDocs(mdArr, searchString) {
     }
   });
 
-  result = docIndex.search(searchString, { autoWildcard: false });
+  result = docIndex.search(searchString, { autoWildcard: true });
   return result;
 }
 
