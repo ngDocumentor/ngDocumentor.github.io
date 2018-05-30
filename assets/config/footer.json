@@ -7,52 +7,16 @@
     },
     "nav": [
         {
-            "tag": "Introduction",
+            "tag": "Footer Example 1",
             "children": [
                 {
-                    "tag": "Home",
-                    "type": "internal",
-                    "link": "/home"
-                },{
                     "tag": "Getting Started",
                     "type": "internal",
                     "link": "/intro"
                 },{
-                    "tag": "Github",
-                    "type": "external",
-                    "link": "https://github.com/ngDocumentor/ngDocumentor"
-                }
-            ]
-        },
-        {
-            "tag": "Configurations",
-            "children": [
-                {
-                    "tag": "Top Nav",
+                    "tag": "Config .json Files",
                     "type": "internal",
-                    "link": "/topnav"
-                },{
-                    "tag": "Sidebar Nav",
-                    "type": "internal",
-                    "link": "/sidebar"
-                },{
-                    "tag": "Footer Nav",
-                    "type": "internal",
-                    "link": "/footer"
-                }
-            ]
-        },
-        {
-            "tag": "Resources",
-            "children": [
-                {
-                    "tag": "App Design",
-                    "type": "internal",
-                    "link": "/design"
-                },{
-                    "tag": "Search Feature",
-                    "type": "internal",
-                    "link": "/search"
+                    "link": "/config"
                 },{
                     "tag": "Github",
                     "type": "external",
@@ -61,18 +25,36 @@
             ]
         },
         {
-            "tag": "Github Repos",
+            "tag": "Footer Example 2",
             "children": [
                 {
-                    "tag": "Cloning Site Repo",
+                    "tag": "Getting Started",
                     "type": "internal",
-                    "link": "https://github.com/ngDocumentor/ngDocumentor.github.io"
+                    "link": "/intro"
                 },{
-                    "tag": "Building",
+                    "tag": "Config .json Files",
                     "type": "internal",
-                    "link": "/building"
+                    "link": "/config"
                 },{
-                    "tag": "Development/Build Repo",
+                    "tag": "Github",
+                    "type": "external",
+                    "link": "https://github.com/ngDocumentor/ngDocumentor"
+                }
+            ]
+        },
+        {
+            "tag": "Footer Example 3",
+            "children": [
+                {
+                    "tag": "Getting Started",
+                    "type": "internal",
+                    "link": "/intro"
+                },{
+                    "tag": "Config .json Files",
+                    "type": "internal",
+                    "link": "/config"
+                },{
+                    "tag": "Github",
                     "type": "external",
                     "link": "https://github.com/ngDocumentor/ngDocumentor"
                 }
