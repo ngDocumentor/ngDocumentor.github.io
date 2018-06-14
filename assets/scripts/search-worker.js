@@ -1,16 +1,14 @@
-importScripts('/assets/scripts/lunr.js');
-
 /**
  * Ajax request to fetch .md files
  * Can be stripped out to make a better comprehensive function / request call. Independant project
  * 
- * @param {any} url 
- * @returns 
+ * @param {any} url - URL to be searched
+ * @returns {string} - Fetched .md doc's string
  */
 function ajax(url) {
-  var prom = new Promise(function (resolve, reject) {
+  let prom = new Promise(function (resolve, reject) {
     if (!!XMLHttpRequest) {
-      var xhttp = new XMLHttpRequest();
+      let xhttp = new XMLHttpRequest();
       xhttp.timeout = 5000;
 
       xhttp.onload = function () {
@@ -44,19 +42,19 @@ function ajax(url) {
  * Performance issue: Synchronous behaviour due to await inside the loop. Proposal detailed
  * Can be made async. Currently async makes code event driven, complicated, and messy (TODO item)
  * 
- * @param {any} urlsArr 
- * @returns 
+ * @param {any} urlsArr - Array of URLs
+ * @returns {any[]} - Array of fetched .md docs
  */
 async function getDocs(urlsArr) {
   let filteredRes, ajaxArr = [],
     searchableArr = [];
 
-  // TODO: Improve ajax trigger loop into a parallel request. 
-  // ISSUE: Error cases handling the issue for parallel trigger implementation with asyncjs, t/co, and promise.all
+  // TODO: Improve ajax trigger loop into a concurrent request. 
+  // ISSUE: Error cases handling the issue for concurrent trigger implementation with asyncjs, t/co, and promise.all
   // REASON: ? Iterables in t/co, asyncjs, and promise.all with error handling is a mess! 
   // SOLUTION: 
   // Proposal needed for promise.all where errors of only error promises can be handled without breaking other promises
-  // Optionally using an argument the Proposal should also allow breaking promise.all() when error in one promise occurs
+  // Optionally using an argument, the Proposal should also allow breaking promise.all() when error in one promise occurs
   // Allow for synchronous or asynchronous implementation using an argument
   for (let i = 0; i < urlsArr.length; i++) {
     try {
@@ -79,35 +77,98 @@ async function getDocs(urlsArr) {
 };
 
 /**
- * Loop through .md array results and search the aray using lunrjs
+ * Orders the search result based on total
  * 
- * @param {any} mdArr 
- * @param {any} searchString 
- * @returns 
+ * TODO: 
+ * T1: Make this better by giving weightages, 
+ * T2 (Done): All items having counts will score more than other not having them in one or few
+ * T3: Add language fillers and score them lesser only in a phrase
+ * T4: Partial Word Search and full word search in document scoring with full word weighing more (how much? what ratio)
+ * T5: Now copy this logic into a function
+ *
+ * @param {*} arr - Searched Array to be sorted as per above logic
+ * @returns {any[]} - Relevant search results array without unrelevant data
  */
-function searchDocs(mdArr, searchString) {
-  let result, docIndex = lunr(function () {
-    this.ref('url');
-    this.field('body');
-    this.metadataWhitelist = ['position'];
-
-    for (var i = 0; i < mdArr.length; i++) {
-      if (!!mdArr[i].body && (mdArr[i].body.indexOf('Error') !== 0 && !mdArr.err)) {
-        let a = mdArr[i];
-        this.add(a);
+function orderBy(arr) {
+  return arr.sort(function (first, second) {
+    if (first.total == second.total) {
+      function countZeros(item) {
+        if (item.count === 0) {
+          return item;
+        }
       }
+      let f = first.keys.filter(countZeros);
+      let s = second.keys.filter(countZeros);
+      if (f.length > s.length) {
+        return 1;
+      } else if (f.length < s.length) {
+        return -1;
+      } else if (f.length === s.length) {
+        return 0;
+      }
+    } else if (first.total < second.total) {
+      return 1;
+    } else {
+      return -1;
+    }
+  }).filter(function (item) {
+    if (item.total !== 0) {
+      return item;
     }
   });
+}
 
-  result = docIndex.search(searchString, { autoWildcard: true });
+/**
+ * Searches the array using simple occurance count
+ * 
+ * TODO: Add indexes of each keyfor highlighting in browser (P5)
+ *
+ * @param {*} arr - Array to be searched for key words
+ * @param {*} str - String to be searched
+ * @returns {any[]} - Search results
+ */
+function searchAlgoDocs(arr, str) {
+  let result = {
+    total: 0,
+    url: str.url,
+    charLength: str.body.split('').length,
+    wordLength: str.body.split(' ').length,
+    body: str.body.split('').splice(0, 200).join(''),
+    keys: []
+  };
+  for (let i = 0; i < arr.length; i++) {
+    let splitter = (str.body.toLowerCase().split(arr[i].toLowerCase()).length - 1),
+      key = arr[i];
+    result.keys.push({
+      key: key,
+      count: splitter
+    });
+    result.total = result.total + splitter;
+  }
   return result;
+}
+
+/**
+ * Loop through .md array results and search the array using searchAlgoDocs
+ *
+ * @param {*} mdArr - Array of .md files
+ * @param {*} searchString - Search string
+ * @returns {any[]} - Ordered array
+ */
+function searchDocs(mdArr, searchString) {
+  let searchResult = [];
+  for (let i = 0; i < mdArr.length; i++) {
+    let res = searchAlgoDocs(searchString.split(' '), mdArr[i]);
+    searchResult.push(res);
+  }
+  return orderBy(searchResult);
 }
 
 /**
  * Search function (Integrates individual functions)
  * 
- * @param {any} eData 
- * @returns 
+ * @param {any} eData - Search relevant data with search string, urls
+ * @returns {any[]} - Search result's array
  */
 async function search(eData) {
   let urlsArr = eData.urls,
