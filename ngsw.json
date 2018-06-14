@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/main.351f6f381bbb6b75fc13.js",
+        "/polyfills.5a0a464f4a0c614c3e4d.js",
+        "/runtime.6afe30102d8fe7337431.js",
+        "/styles.85485d4fa23bf2bcc4d7.css",
+        "/vendor.11fb683a276fe085bb0a.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/config/footer.json",
+        "/assets/config/settings.json",
+        "/assets/config/sidebar.json",
+        "/assets/config/topnav.json",
+        "/assets/img/logo.png",
+        "/assets/img/menuicon.svg",
+        "/assets/img/search.svg",
+        "/assets/mddocs/brandname.md",
+        "/assets/mddocs/building.md",
+        "/assets/mddocs/config.md",
+        "/assets/mddocs/credits.md",
+        "/assets/mddocs/design.md",
+        "/assets/mddocs/error.md",
+        "/assets/mddocs/footer.md",
+        "/assets/mddocs/genmd.md",
+        "/assets/mddocs/genrst.md",
+        "/assets/mddocs/home.md",
+        "/assets/mddocs/intro.md",
+        "/assets/mddocs/mdgen.md",
+        "/assets/mddocs/search.md",
+        "/assets/mddocs/sidebar.md",
+        "/assets/mddocs/topnav.md",
+        "/assets/scripts/search-worker.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/config/footer.json": "74035c33a4b8bf8d7b90c86ff4f66a7da7124d67",
+    "/assets/config/settings.json": "0c43cc4774ea4519758cbb4f82974f344df064dc",
+    "/assets/config/sidebar.json": "33da078ec0d8406dd69af8ec60592877c57734ec",
+    "/assets/config/topnav.json": "3efbf48860f6f8cfeeba9621c561325f5b0e24a4",
+    "/assets/img/logo.png": "cd5d67841734e0aa42df68d8189f78f1a1e06968",
+    "/assets/img/menuicon.svg": "7f59fa656078432a519ecf009ca2163809f08f73",
+    "/assets/img/search.svg": "7b0435afe7ba04d52e9807b15ebf78687a66d438",
+    "/assets/mddocs/brandname.md": "a80c43a33db1a6f0ff82917e094156d95dbaf592",
+    "/assets/mddocs/building.md": "d2508890574475754fefd1e7bfcd4cfee14bee19",
+    "/assets/mddocs/config.md": "9819ea69acf55a872e721a9f333dae07db555d5c",
+    "/assets/mddocs/credits.md": "fa3199e5fc3f56040a714f6b33be6d2ccbedc8ee",
+    "/assets/mddocs/design.md": "59ff86227d0ae63dd25552da34b78608c546b13f",
+    "/assets/mddocs/error.md": "25c8418ad20d8ff6a7c1937eea99aa57a13f8ca3",
+    "/assets/mddocs/footer.md": "749d4f8846371720ced28b5362a21b2fa8737cab",
+    "/assets/mddocs/genmd.md": "42cd9f1b798c59eb78dd136628a48d455f698375",
+    "/assets/mddocs/genrst.md": "37bfc8d4bacdf5edf81a2f570f5ba1f8ee7f5d89",
+    "/assets/mddocs/home.md": "1ae5adb4418b4b947572a791bb1e9f5af0dfd43d",
+    "/assets/mddocs/intro.md": "72f6af6dcf6434e43b4fffd4b21da483b2a2a6ca",
+    "/assets/mddocs/mdgen.md": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/mddocs/search.md": "bdf6ed2c08e050e67608e93808c6b879d87e4f6e",
+    "/assets/mddocs/sidebar.md": "377052befcb244945eda440daea4fe54951ea226",
+    "/assets/mddocs/topnav.md": "7f3840c22dc8a6e242aa6205428526c5ca1e70b8",
+    "/assets/scripts/search-worker.js": "b312cceff407f28c4a596f7d2b6b86ea51b5045e",
+    "/index.html": "4a6a7405edd7eeeb2ce5dbf685d2b89520618466",
+    "/main.351f6f381bbb6b75fc13.js": "536def280f9884d7f8e54b57e83c137f2bf7d6e4",
+    "/polyfills.5a0a464f4a0c614c3e4d.js": "0add33dab93227ce8d354ff29a0f065e577ed67b",
+    "/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/styles.85485d4fa23bf2bcc4d7.css": "cdb7e80e4932c973cf5e944058761147f00c756f",
+    "/vendor.11fb683a276fe085bb0a.js": "fb9ccde125bdc1e6b40d409987de1ea0ed03ee8b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
