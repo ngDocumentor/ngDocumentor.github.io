@@ -12,7 +12,11 @@ ngDocumenter is a simple website that will serve your .md files from a location 
 * If you have created your markdown (.md files) wiki for your project, that should be your starting point. Copy all your `.md` files (in respective folder structure, if needed) into the `assets/mddocs` folder in the cloned repository.
 
 
+<<<<<<< HEAD
 * Create `assets/mddocs/home.md` for top first level home link. [1] `home.md` will be path `/` or `/home`.
+=======
+* Clone the [ngDocumentor github site repository](https://github.com/ngDocumentor/ngDocumentor.github.io) OR download the [latest release v3.0.0](https://github.com/ngDocumentor/ngDocumentor.github.io/releases) to use the ngDocumentor site distribution directly.
+>>>>>>> 5aedc4323d19cc95ba371e5a0603ccef9912a1c6
 
 
 * You sidebar and top navigation both can be dynamically specified using `.json` configuration files inside `assets/config/` folder. Top navigation in `assets/config/topnav.json` and Sidebar menu in `assets/config/sidebar.json`
