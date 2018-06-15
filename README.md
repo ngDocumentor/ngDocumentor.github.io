@@ -134,6 +134,8 @@ ngDocumentor is a simple website that serves your .md files from a host location
 
 ## TODO / Plans
 
-* ADD Search Capability for site or .md files without loss in performance P4
-* Move to Observable based routing P2
-* Check possibility of removing `#/` for .md file's internal linking inside ngDocumentor or add support for bookmarks
+* Move to Observable based routing P3
+* Add support for bookmarks P3
+* Add keyword based search for large doc size P3
+* Better normalized search for fuzzy/full word search and support for weighted searches P3
+* Add Tests P2
