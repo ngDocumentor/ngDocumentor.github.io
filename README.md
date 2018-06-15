@@ -36,6 +36,7 @@ ngDocumentor is a simple website that serves your .md files from a host location
 ```json
 {
     "brandname": "My Documentation",
+    "logo": "/assets/img/logo.png",
     "nav": [
         { "tag": "Home", "link": "/home" },
         { "tag": "Getting Started", "link": "/intro" }
