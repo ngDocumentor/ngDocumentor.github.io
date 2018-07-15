@@ -276,3 +276,7 @@ ngDocumentor is a simple website that serves your .md files from a host location
 * Add keyword based search for large doc size P3
 * Better normalized search for fuzzy/full word search and support for weighted searches P3
 * Add Tests P2
+
+## License
+
+MIT
