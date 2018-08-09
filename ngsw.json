@@ -8,10 +8,10 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.175ef5d5c2e8f7a120ff.js",
+        "/main.9d3ebfb2cbed537a36ee.js",
         "/polyfills.016be5d6f3c6773326d2.js",
         "/runtime.6afe30102d8fe7337431.js",
-        "/styles.6244bb0dcc39531dca34.css",
+        "/styles.bc0ebe422cca3be8d781.css",
         "/vendor.75edb63d6e2eb991c96e.js"
       ],
       "patterns": []
@@ -23,6 +23,8 @@
       "urls": [
         "/assets/config/landingpage-sample.txt",
         "/assets/config/settings.json",
+        "/assets/config/settings.xml",
+        "/assets/config/settings.yaml",
         "/assets/css/landing-styles.css",
         "/assets/docs/brandname.md",
         "/assets/docs/building.md",
@@ -44,6 +46,7 @@
         "/assets/docs/todo.md",
         "/assets/docs/topnav.md",
         "/assets/img/edit.svg",
+        "/assets/img/externallink.svg",
         "/assets/img/img_mountains_wide.jpg",
         "/assets/img/logo.png",
         "/assets/img/menuicon.svg",
@@ -62,7 +65,9 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/config/landingpage-sample.txt": "1a9d5f5b04672d3c430433cb7f8510bff64874f1",
-    "/assets/config/settings.json": "fc8001764e24af806b55658847996c8f006b6d10",
+    "/assets/config/settings.json": "8f6423331e1636940d34323eb57d1a856b443245",
+    "/assets/config/settings.xml": "201c6d3d14684866b29c09029a508ac71e1f61a6",
+    "/assets/config/settings.yaml": "7983868a60cff30ebafc62c55ed38034aab72ecc",
     "/assets/css/landing-styles.css": "5ddc8aa028bc8f764883c5583ceb38e5c2d51a3c",
     "/assets/docs/brandname.md": "c7b58a7e34635c242e3a66a2d984a84b76f3c82d",
     "/assets/docs/building.md": "6293871667540fb17f7e11971467cf101f862e70",
@@ -74,7 +79,7 @@
     "/assets/docs/genmd.md": "200cfb03a0e4d2c38591ac6e834fa5dfbf131656",
     "/assets/docs/genrst.md": "37bfc8d4bacdf5edf81a2f570f5ba1f8ee7f5d89",
     "/assets/docs/home.md": "1ae5adb4418b4b947572a791bb1e9f5af0dfd43d",
-    "/assets/docs/intro.md": "f56a3ae7e71a93ee2ed93e55f9fc29efc6dfe869",
+    "/assets/docs/intro.md": "9c2fb72569dedc0505af19774f1c832874f26009",
     "/assets/docs/landing.md": "fba661b43b1b0370d339e54f1cbb2939daf88163",
     "/assets/docs/mdgen.md": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/assets/docs/plans.md": "16b41a471207274d8e27797c26cff3ae9364ccfc",
@@ -84,6 +89,7 @@
     "/assets/docs/todo.md": "c0545368d2ab77c82e7def263f15dab9d4befaff",
     "/assets/docs/topnav.md": "dabeea0a727dc5e1e9064e3c9f20181f57438896",
     "/assets/img/edit.svg": "d1376e982a8301bab5d57497bb46d2cd2cc1eed9",
+    "/assets/img/externallink.svg": "e95748a344d5de787176de4361257d53cd988414",
     "/assets/img/img_mountains_wide.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/img/logo.png": "cd5d67841734e0aa42df68d8189f78f1a1e06968",
     "/assets/img/menuicon.svg": "7f59fa656078432a519ecf009ca2163809f08f73",
@@ -95,11 +101,11 @@
     "/assets/img/test-two.jpg": "bfed14f9419d4bca8dda52ed9b859033740968fc",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
     "/assets/scripts/search-worker.js": "ee0ea5fbc06cf2fc607aa104c85318f8552b8767",
-    "/index.html": "0bac23126870165d4e8b5bc274fe8ea72ef8f49d",
-    "/main.175ef5d5c2e8f7a120ff.js": "aa5984c51ef6563b0f83188e5bd032e4d36fdc62",
+    "/index.html": "96220f260d077b2b5f6a252c5ce5b75664a93657",
+    "/main.9d3ebfb2cbed537a36ee.js": "f243e008501b0bcd2c5e235257720b73b94c5fb3",
     "/polyfills.016be5d6f3c6773326d2.js": "c3a64d0397f2434e2633b2075fd030eb3bcceaa7",
     "/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "/styles.6244bb0dcc39531dca34.css": "8b4c2d6ad994100c158ce0d920d605f2619aff75",
+    "/styles.bc0ebe422cca3be8d781.css": "bcec0e565225e282bd1f89f08410893268ac18f1",
     "/vendor.75edb63d6e2eb991c96e.js": "96d6386795680845f8f8ee8884241bb2d584f71e"
   },
   "navigationUrls": [
