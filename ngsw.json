@@ -8,10 +8,10 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.eac7724421330a20275f.js",
+        "/main.18aef3b0e328ef36585e.js",
         "/polyfills.016be5d6f3c6773326d2.js",
         "/runtime.6afe30102d8fe7337431.js",
-        "/styles.614b26d88e4e9d5f19e1.css",
+        "/styles.5989be00bebc6493232c.css",
         "/vendor.75edb63d6e2eb991c96e.js"
       ],
       "patterns": []
@@ -45,6 +45,7 @@
         "/assets/docs/sidebar.md",
         "/assets/docs/todo.md",
         "/assets/docs/topnav.md",
+        "/assets/img/close.png",
         "/assets/img/externallink.svg",
         "/assets/img/landing-img.svg",
         "/assets/img/logo.png",
@@ -83,6 +84,7 @@
     "/assets/docs/sidebar.md": "95fc4e7cd24a977446faf634b387627aacb03b20",
     "/assets/docs/todo.md": "c0545368d2ab77c82e7def263f15dab9d4befaff",
     "/assets/docs/topnav.md": "dabeea0a727dc5e1e9064e3c9f20181f57438896",
+    "/assets/img/close.png": "fede069879c0f1b08d837c09ff20e45dd4976ade",
     "/assets/img/externallink.svg": "e95748a344d5de787176de4361257d53cd988414",
     "/assets/img/landing-img.svg": "0357b8b60060dc1891ef29d502c8978674268752",
     "/assets/img/logo.png": "cd5d67841734e0aa42df68d8189f78f1a1e06968",
@@ -91,11 +93,11 @@
     "/assets/img/slider-one.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
     "/assets/scripts/search-worker.js": "ee0ea5fbc06cf2fc607aa104c85318f8552b8767",
-    "/index.html": "801e4e288d9f26e05006fe9ffb072758fbd33bb7",
-    "/main.eac7724421330a20275f.js": "52e7e2944431aad5daa58c0a25338577b1e05e6e",
+    "/index.html": "063e77f11f9ff07b32afdcb79d9475d315b21179",
+    "/main.18aef3b0e328ef36585e.js": "6429688c11000151a52afe847c3623ddbc540943",
     "/polyfills.016be5d6f3c6773326d2.js": "c3a64d0397f2434e2633b2075fd030eb3bcceaa7",
     "/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "/styles.614b26d88e4e9d5f19e1.css": "026216071791d844c96029b78264311654903690",
+    "/styles.5989be00bebc6493232c.css": "c21153042c230710893258b149f815f984734271",
     "/vendor.75edb63d6e2eb991c96e.js": "96d6386795680845f8f8ee8884241bb2d584f71e"
   },
   "navigationUrls": [
