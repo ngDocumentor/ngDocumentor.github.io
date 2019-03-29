@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553879438429,
+  "timestamp": 1553881675070,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,7 +9,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.5621ad4423098d165e90.js",
+        "/main.754645efac060028b5a6.js",
         "/polyfills.18db4238392c02af7981.js",
         "/runtime.a5dd35324ddfd942bef1.js",
         "/scripts.2150dc5d4d46eab77c23.js",
@@ -99,8 +99,8 @@
     "/assets/img/slider-one.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
     "/assets/scripts/search-worker.js": "ee0ea5fbc06cf2fc607aa104c85318f8552b8767",
-    "/index.html": "38f22eb17855b872f508cb81d2b31c58142fe650",
-    "/main.5621ad4423098d165e90.js": "fa58571f477c1b2c42f8fa54e66a251e27ba3afd",
+    "/index.html": "f80627fa12a6302e43fc788f014b004e29fcdb76",
+    "/main.754645efac060028b5a6.js": "eef00897ca718255c2b63d73bc7c455ef1626f06",
     "/polyfills.18db4238392c02af7981.js": "da160a3e7f96825f1a8459233c0a21b75aad865d",
     "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.2150dc5d4d46eab77c23.js": "71e8d8d6d494b9458a90a96e1a6afa76b6013067",
