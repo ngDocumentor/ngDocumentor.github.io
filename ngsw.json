@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553877516038,
+  "timestamp": 1553878897248,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,11 +9,11 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.3b9f5648fbc03bf2f1f5.js",
+        "/main.a4930bd1a89be7a23877.js",
         "/polyfills.18db4238392c02af7981.js",
         "/runtime.a5dd35324ddfd942bef1.js",
         "/scripts.2150dc5d4d46eab77c23.js",
-        "/styles.70a8ea266022c6005351.css",
+        "/styles.d97fa0487f3a6079a6a6.css",
         "/vendor.c1ac0bfb79db7542097c.js"
       ],
       "patterns": []
@@ -70,7 +70,7 @@
     "/assets/config/settings.yaml": "9254678c8b5276ddc66f4935efa61533d01b25ab",
     "/assets/css/indigo-pink.css": "7d79ba53aeb680e20de56b57f2e2af0c509362d7",
     "/assets/css/landing-styles.css": "aeecff3352a81702abbfabf8cc20599da70af030",
-    "/assets/css/styles.css": "535b23b0ce85a647fa94d2d0db1f3c26da8106f9",
+    "/assets/css/styles.css": "c0cc7e756791daa4e393d337168e13fa4b7019bc",
     "/assets/docs/brandname.md": "c7b58a7e34635c242e3a66a2d984a84b76f3c82d",
     "/assets/docs/building.md": "598371c78de015927a7fc138e8519f203f3cf6f2",
     "/assets/docs/config.md": "5a7aee2bda0521e51d53ffbd03255b4b5b514c06",
@@ -99,12 +99,12 @@
     "/assets/img/slider-one.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
     "/assets/scripts/search-worker.js": "ee0ea5fbc06cf2fc607aa104c85318f8552b8767",
-    "/index.html": "724f6a37e9c8e468161fbf9219327ce80ef32f10",
-    "/main.3b9f5648fbc03bf2f1f5.js": "133e52815493ee9e4e113e018d39737476ab717b",
+    "/index.html": "33cc465f1f513bcbf76572744b320c3ac36794b2",
+    "/main.a4930bd1a89be7a23877.js": "c181a17f23967b95a4929eb89e1b81f9a14d9ac9",
     "/polyfills.18db4238392c02af7981.js": "da160a3e7f96825f1a8459233c0a21b75aad865d",
     "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.2150dc5d4d46eab77c23.js": "71e8d8d6d494b9458a90a96e1a6afa76b6013067",
-    "/styles.70a8ea266022c6005351.css": "1b1c511e5b4475a31646bd8fb9644aee3a9ffaa3",
+    "/styles.d97fa0487f3a6079a6a6.css": "6ce8c13c96c303d6102da83f791fb0ce137a1b5b",
     "/vendor.c1ac0bfb79db7542097c.js": "fc1d79c28ae414b68d69d54d7b4c8b77b25f9895"
   },
   "navigationUrls": [
