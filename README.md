@@ -29,7 +29,7 @@ ngDocumentor is a simple website that serves your .md files from a host location
 ```json
 
 {
-    "filetype": "markdown",
+    "filetype": "md", // file extension here
     "home": { },
     "topnav": { },
     "sidebar": { },
