@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553920708300,
+  "timestamp": 1553961627494,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,7 +9,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.754645efac060028b5a6.js",
+        "/main.4f427a3d69f409349bd3.js",
         "/polyfills.18db4238392c02af7981.js",
         "/runtime.a5dd35324ddfd942bef1.js",
         "/scripts.2150dc5d4d46eab77c23.js",
@@ -65,7 +65,7 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/config/landingpage-sample.txt": "13dc271c859ba532251e85897d0d55206f7d2c8b",
-    "/assets/config/settings.json": "4fdaca5c171a1b17206607d6510e2fa35d02a91c",
+    "/assets/config/settings.json": "55f4744331f02b3243e1fb0e42092121e1708c1a",
     "/assets/config/settings.xml": "e16a92d667eb3aef1d273fdbc3809dd78cdcc1cf",
     "/assets/config/settings.yaml": "9254678c8b5276ddc66f4935efa61533d01b25ab",
     "/assets/css/indigo-pink.css": "7d79ba53aeb680e20de56b57f2e2af0c509362d7",
@@ -98,9 +98,9 @@
     "/assets/img/search.svg": "7b0435afe7ba04d52e9807b15ebf78687a66d438",
     "/assets/img/slider-one.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
-    "/assets/scripts/search-worker.js": "ee0ea5fbc06cf2fc607aa104c85318f8552b8767",
-    "/index.html": "f80627fa12a6302e43fc788f014b004e29fcdb76",
-    "/main.754645efac060028b5a6.js": "eef00897ca718255c2b63d73bc7c455ef1626f06",
+    "/assets/scripts/search-worker.js": "21afcec639c0aa673079d51fdd31fa53e50102c9",
+    "/index.html": "13c87fc08fb2d1d5caabbdf3bc04b05eb2bd80e0",
+    "/main.4f427a3d69f409349bd3.js": "4564f6f8c40cdfbc857aafea00f2653d13969ebf",
     "/polyfills.18db4238392c02af7981.js": "da160a3e7f96825f1a8459233c0a21b75aad865d",
     "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.2150dc5d4d46eab77c23.js": "71e8d8d6d494b9458a90a96e1a6afa76b6013067",
