@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553970146872,
+  "timestamp": 1554000546001,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,7 +9,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main.2d3876423c13bee1e6d6.js",
+        "/main.fb039167310e87fa951f.js",
         "/polyfills.18db4238392c02af7981.js",
         "/runtime.a5dd35324ddfd942bef1.js",
         "/scripts.2150dc5d4d46eab77c23.js",
@@ -65,7 +65,7 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/config/landingpage-sample.txt": "13dc271c859ba532251e85897d0d55206f7d2c8b",
-    "/assets/config/settings.json": "55f4744331f02b3243e1fb0e42092121e1708c1a",
+    "/assets/config/settings.json": "cd48bb2aab85da006e856b9aa519c091051dfa5e",
     "/assets/config/settings.xml": "e16a92d667eb3aef1d273fdbc3809dd78cdcc1cf",
     "/assets/config/settings.yaml": "9254678c8b5276ddc66f4935efa61533d01b25ab",
     "/assets/css/indigo-pink.css": "7d79ba53aeb680e20de56b57f2e2af0c509362d7",
@@ -99,8 +99,8 @@
     "/assets/img/slider-one.jpg": "ba24063ab957514db1bb14df55a5aed5248a01d6",
     "/assets/scripts/pseudo-worker.polyfill.js": "1fe0d7f658d8c976542d93efde96f6ad43c2d641",
     "/assets/scripts/search-worker.js": "21afcec639c0aa673079d51fdd31fa53e50102c9",
-    "/index.html": "4c887c5b880720155a3c79b95facdb5c8268d598",
-    "/main.2d3876423c13bee1e6d6.js": "26ef794ccbf1fcdb651eac11e65c9382ff98a7b0",
+    "/index.html": "1b5e1185459a26a8d9bec2672b3a2ab1e9852b81",
+    "/main.fb039167310e87fa951f.js": "f33a301ef849b5fbd2a20195323bbc5fbef14167",
     "/polyfills.18db4238392c02af7981.js": "da160a3e7f96825f1a8459233c0a21b75aad865d",
     "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.2150dc5d4d46eab77c23.js": "71e8d8d6d494b9458a90a96e1a6afa76b6013067",
