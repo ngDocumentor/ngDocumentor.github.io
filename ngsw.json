@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583915820423,
+  "timestamp": 1583916267137,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -78,7 +78,7 @@
     "/assets/config/settings.json": "cd48bb2aab85da006e856b9aa519c091051dfa5e",
     "/assets/config/settings.xml": "e16a92d667eb3aef1d273fdbc3809dd78cdcc1cf",
     "/assets/config/settings.yaml": "9254678c8b5276ddc66f4935efa61533d01b25ab",
-    "/assets/css/indigo-pink.css": "7d79ba53aeb680e20de56b57f2e2af0c509362d7",
+    "/assets/css/indigo-pink.css": "b288f69e14fc4e4c781fca69d75300f8cdac9b40",
     "/assets/css/landing-styles.css": "aeecff3352a81702abbfabf8cc20599da70af030",
     "/assets/css/styles.css": "54ee3a781862047481136803b3c9ada49534d493",
     "/assets/docs/brandname.md": "c7b58a7e34635c242e3a66a2d984a84b76f3c82d",
